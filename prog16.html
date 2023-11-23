@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        :root{
+            --x:red;
+            --y:blue;
+            --backg:black;
+        }
+        #para1{
+            color:var(--x);
+        }
+        h1{
+            color: var(--y);
+        }
+        #para2{
+            --z:yellow;
+            color: var(--z);
+        }
+        body{
+            background-color: var(--backg);
+        }
+
+    </style>
+</head>
+<body>
+    <!-- :root var() -->
+    <!-- var() function used to insert the value to a css variable -->
+    <!-- variables local scope, global scope -->
+
+    <h1>Heading</h1>
+    <p id="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quidem eaque cupiditate natus excepturi eius ea esse quaerat pariatur velit ipsum officia saepe, asperiores rem sequi officiis deserunt recusandae nesciunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque itaque, aliquam ullam libero ipsam, velit at consectetur sed et nostrum, magnam voluptates fugiat nesciunt ex temporibus sapiente eaque quibusdam impedit.</p>
+    
+
+    <p id="para2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quidem eaque cupiditate natus excepturi eius ea esse quaerat pariatur velit ipsum officia saepe, asperiores rem sequi officiis deserunt recusandae nesciunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque itaque, aliquam ullam libero ipsam, velit at consectetur sed et nostrum, magnam voluptates fugiat nesciunt ex temporibus sapiente eaque quibusdam impedit.</p>
+    
+</body>
+</html>
